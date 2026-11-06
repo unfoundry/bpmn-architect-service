@@ -1,0 +1,25 @@
+# ==============================================================================
+# BPMN Architect Service - Python Dependencies
+# ==============================================================================
+# Fast, lightweight headless microservice dependencies.
+# Install using: pip install -r requirements.txt
+# ==============================================================================
+
+# Web Framework & ASGI Server
+fastapi>=0.100.0,<1.0.0
+uvicorn[standard]>=0.23.0,<1.0.0
+jinja2>=3.1.0,<4.0.0
+
+# Data Validation & Settings Management
+pydantic>=2.0.0,<3.0.0
+pydantic-settings>=2.0.0,<3.0.0
+python-dotenv>=1.0.0,<2.0.0
+
+# File Upload & Form Support
+python-multipart>=0.0.6
+
+# Security: Defused XML to prevent XXE & entity expansion attacks
+defusedxml>=0.7.1
+
+# Enterprise Authentication: LDAP / Active Directory support
+ldap3>=2.9.1

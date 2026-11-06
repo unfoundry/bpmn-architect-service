@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# BPMN Architect Storage & Runtime
+diagram_storage/
+storage/
+temp_storage/
+*.tmp
+*.bpmn
+*.svg
+!static/img/*.svg
+.vscode/
+.idea/
+.env
